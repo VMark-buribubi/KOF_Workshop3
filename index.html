@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Workshop-3</title>
+</head>
+<body>
+    <div class="title">WELCOME TO THE LEAGUE OF PEOPLE</div>
+    <div class="taskTitle">Add a new Student</div>
+    <form class="row g-3 form-textarea">
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter the person's details..." rows="10"></textarea>
+        <div style="text-align: center" class="col-12">
+            <button type="button" id="btn-add" class="button">Add new Student</button>
+        </div>
+    </form>
+    <hr>
+    <div class="taskTitle">Update a Student</div>
+    <form class="row g-3 form-inputs">
+        <div>
+            <input type="text" id="input-id" class="form-control" placeholder="Id">
+        </div>
+        <div>
+            <input type="text" id="input-name" class="form-control" placeholder="Name">
+        </div>
+        <div>
+            <input type="text" id="input-isactive" class="form-control" placeholder="Is active (true / false)">
+        </div>
+        <div>
+            <input type="text" id="input-birthyear" class="form-control" placeholder="Birth year">
+        </div>
+        <div >
+            <input type="text" id="input-connections" class="form-control" placeholder="Connections">
+        </div>
+        <div >
+            <input type="text" id="input-completedcredits" class="form-control" placeholder="Completed credits">
+        </div>
+        <div>
+            <input type="text" id="input-activesemestercount" class="form-control" placeholder="Active semesters">
+        </div>
+        <div>
+            <input type="text" id="input-image" class="form-control" placeholder="Image">
+        </div>
+        <div>
+            <button type="button" id="btn-update" class="button">Update Student</button>
+        </div>
+    </form>
+    <hr>
+    <form class="row g-3 form-selects">
+        <div class="col-md-3">
+            <select id="select" class="form-select">
+                <option selected hidden>Select sort type</option>
+                <option value="true">Active</option>
+                <option value="false">Passive</option>
+                <option value="reset">Reset</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <button type="button" id="btn-sort" class="button">Sort Students</button>
+        </div>
+     </form>
+    <div id="content"></div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

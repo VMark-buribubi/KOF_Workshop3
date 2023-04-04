@@ -1,0 +1,67 @@
+.form-textarea .form-inputs {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-inputs {
+    margin-top: 5rem;
+    background: #d0efff;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    padding-bottom: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(159, 2, 167);
+    word-spacing: 0.1px;
+}
+
+.taskTitle{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    border-color: #E2725B;
+    border-width: 2px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button::after{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+.card {
+    margin: 3rem auto;
+}
+
+    .card-green {
+        border: 10px solid green;
+    }
+
+    .card-red {
+        border: 10px solid red;
+    }
+
+    .card-text span {
+        display: block;
+    }
